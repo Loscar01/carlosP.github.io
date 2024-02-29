@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Casio Fx-5654654</title>
+</head>
+<body>
+    <h2><center>Casio Fx-5654654</center></h2>
+    <div>
+        <h3><center>Por favor ingrese los dos primeros numeros y luego presione <b>CALCULAR</b> para seleccionar una operación</center></h3>
+        <input type="number" id="input1"><br>
+        <input type="number" id="input2"><br>
+        
+        <button type="button" onclick="suma()">Suma</button>
+        <button type="button" onclick="resta()">resta</button><br>
+        <button type="button" onclick="multiplicacion()">Multiplicación</button>
+        <button type="button" onclick="division()">División</button><br>
+
+
+    </div>
+    <div class="resultados"><h3><center>Los resultados apareceran en esta cajita</center></h3></div>
+    <div class="encuesta">
+        <h1><center>Encuesta de usuario</center></h1>
+        <form id="input-form">
+            <label for="text-input">Nombre completo:</label>
+            <input type="text" id="nombre" placeholder="Introduce nombre completo aquí">
+
+            <label for="text-input">Apellido:</label>
+            <input type="text" id="apellido" placeholder="Introduce tu apellido aquí">
+
+            <label for="email-input">Email:</label>
+            <input type="email" id="email" placeholder="Introduce tu correo electrónico">
+            
+            <label for="text-input">Comentarios:</label>
+            <input type="text" id="comentarios" placeholder="Introduce tu experiencia con esta calculadora">
+
+
+            <button type="button" onclick="enviar()">Enviar</button>
+        </form>
+    </div>
+    <div class="mensajeEncuesta"></div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
