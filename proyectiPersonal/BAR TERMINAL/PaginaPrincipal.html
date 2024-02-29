@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarLaTerminal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><center>Bar La Terminal</center></h1>
+    <h3><center>Menú de comidas</center></h3>
+    <script src="pàginaprincipal.js"></script>
+    <div id="menu">
+        <ul><b>Hamburguesas</b>
+            <li><button onclick="pedidos('Hamburguesa simple')">Hamburguesa simple</button></li><br>
+            <li><button onclick="pedidos('Hamburguesa completa')">Hamburguesa completa</button></li><br>
+            <li><button onclick="pedidos('Hamburguesa Especial')">Hamburguesa Especial</button></li><br>
+            <li><button onclick="pedidos('Cheese Burger')">Cheese Burger</button></li><br>
+            <li><button onclick="pedidos('Super Bacon Burger')">Super Bacon Burger</button></li><br>
+        </ul> 
+        <ul><b>Pastas</b>
+            <li><button onclick="pedidos('Ñoquis con salsa de pollo')">Ñoquis con salsa de pollo</button></li><br>
+            <li><button onclick="pedidos('Ñoquis con salsa de carne')">Ñoquis con salsa de carne</button></li><br>
+            <li><button onclick="pedidos('Fideos con salsa de pollo')">Fideos con salsa de pollo</button></li><br>
+        </ul>
+    </div>
+    <div id="lista-pedidos">
+        <!-- Aquí se mostrarán los pedidos -->
+    </div>
+    <div class="confirmar">
+        <h1>Su carrito</h1><br>
+        <button id="eliminar-pedido">Eliminar carrito</button>
+    </div>
+    
+</body>
+</html>
