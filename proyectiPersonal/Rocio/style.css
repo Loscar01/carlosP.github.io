@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c75ec2;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  h1 {
+    color: #ff5a5f;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .heart {
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 15px);
+    color: #ff0008;
+    font-size: 30px;
+  }
+  p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  .signature {
+    text-align: right;
+    margin-top: 20px;
+  }
